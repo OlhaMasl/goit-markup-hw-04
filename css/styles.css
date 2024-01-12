@@ -127,6 +127,11 @@ letter-spacing: 0.02em;
 
 .hero {
     background: var(--NAVY-BLUE, #2E2F42);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70) ), url(../images/hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    max-width: 1440рх;
     padding-top: 188px;
     padding-bottom: 188px;
 }
@@ -201,6 +206,16 @@ background: #404BBF;
     width: calc((100% - 3 * 24px) / 4);
   }
 
+  .icons-item {
+    width: 264px;
+    height: 112px;
+    border-radius: 4px;
+    border: 1px solid var(--LIGHT-SLATE, #8E8F99);
+    background: var(--CLOUD, #F4F4FD);
+    padding: 24px 100px;
+    margin-bottom: 8px;
+  }
+
 .features-item-title {
     color: var(--NAVY-BLUE, #2E2F42);
 font-size: 20px;
@@ -273,6 +288,16 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 }
 
+.social-networks-list {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    gap: 24px;
+    background-color: #4D5AE5;
+    padding-right: 16px;
+    padding-left: 16px;
+}
+
 /*-------------------------------*/
 
 /*-----------PORTFOLIO-------------*/
@@ -340,6 +365,10 @@ margin-bottom: 72px;
     padding-top: 100px;
     padding-bottom: 100px;
 }
+.container-footer {
+    display: flex;
+    gap: 120px;
+}
 
 .logo-footer {
     display: inline-block;
@@ -357,4 +386,14 @@ font-weight: 400;
 line-height: 1.5;
 letter-spacing: 0.02em;
 max-width: 264px;
+}
+
+.footer-soc-text {
+    color: var(--WHITE, #FFF);
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        margin-bottom: 16px;
 }
