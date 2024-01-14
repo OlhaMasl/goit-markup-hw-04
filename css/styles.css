@@ -144,7 +144,6 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
-    outline: 2px solid red;
 }
 
 /*-------------------------------*/
@@ -419,7 +418,7 @@ transform: translateY(0%);
     top: 0;
     background: var(--IRIS, #4D5AE5);
     height: 100%;
-    padding: 40px 32px 164px 32px;
+    padding: 40px 32px;
     transform: translateY(100%);
     transition-property: transform;
     transition-duration: 250ms;
@@ -462,7 +461,10 @@ transform: translateY(0%);
 .container-footer {
     align-items: baseline;
     display: flex;
-    gap: 120px;
+}
+
+.container-footer-logo {
+    margin-right: 120px;
 }
 
 .logo-footer {
